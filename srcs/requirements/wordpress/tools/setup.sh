@@ -39,7 +39,7 @@ if  ! mysql -h mariadb -u ${WP_DB_USER} -p${WP_DB_PASSWORD} -e "USE ${WP_DB_NAME
                 --path=/var/www/html \
                 --allow-root
 
-    wp theme install twentytwentyfour --activate --path=/var/www/html --allow-root
+    wp theme install blocksy --activate --path=/var/www/html --allow-root
 
     echo "WordPress installed automatically!"
 else
